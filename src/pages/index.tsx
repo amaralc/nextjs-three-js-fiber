@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Logo from '../assets/logoCircle100.svg'
 import { Container } from '../styles/pages/Home'
+import Boxes from '../components/Boxes'
 
 const Home: React.FC = () => {
   return (
@@ -14,6 +15,9 @@ const Home: React.FC = () => {
         <Logo />
         <h1>ReactJS Structure</h1>
         <p>A ReactJS + Next.js structure</p>
+        <div>
+          <Boxes />
+        </div>
       </main>
 
       <footer>
